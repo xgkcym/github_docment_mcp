@@ -1,15 +1,15 @@
 
 import gradio as gr
 
-from .tabs.management import Management
-from .tabs.update_tab import UpdateTab
+from src.ui.tabs.management import Management
+from src.ui.tabs.update_tab import UpdateTab
 
 
 class DocMCPApp:
 
     def __init__(self):
-
         self.management_tab = None
+        self.update_tab = None
 
     def creat_interface(self)->gr.Blocks:
         with gr.Blocks(title="Document-MCP") as blocks:
@@ -20,11 +20,13 @@ class DocMCPApp:
             )
             self.management_tab = Management(blocks)
             self.update_tab = UpdateTab(blocks)
+            with gr.Tabs():
+                self.management_tab.create_tab()
         return blocks
 
     def launch(self):
         blocks = self.creat_interface()
-        return blocks.launch(mcp_server=True)
+        return blocks.launch(mcp_server=True,share=True)
 
 
 def create_app()->DocMCPApp:
