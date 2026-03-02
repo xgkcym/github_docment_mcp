@@ -18,4 +18,8 @@ class Settings(BaseSettings):
     repos_collection_name: str = Field(default=os.getenv("REPOS_COLLECTION_NAME"))
     rag_collection_name: str = Field(default=os.getenv("RAG_COLLECTION_NAME"))
 
+
+    # github
+    github_api_key: str = Field(default=os.getenv("GITHUB_API_KEY"))
+    github_timeout: int = Field(default=os.getenv("GITHUB_TIMEOUT"))
 settings = Settings()

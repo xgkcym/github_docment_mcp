@@ -7,10 +7,10 @@ from src.database.repository import repository_manager
 from src.utils.logger_handler import logger
 
 
-class Management:
+class ManagementTab:
     """处理仓库管理标签页的UI和逻辑。"""
-    def __init__(self,blocks:gr.Blocks):
-        self.blocks = blocks
+    def __init__(self,demo:gr.Blocks):
+        self.demo = demo
 
     def create_tab(self)->gr.TabItem:
         """创建管理标签页界面。"""
@@ -28,12 +28,14 @@ class Management:
                     refresh_stats_btn = gr.Button(
                         "🔄 刷新统计", variant="secondary"
                     )
+                    # 刷新统计
+                    refresh_stats_btn.click(fn=self._load_repository_stats, outputs=[stats_json], show_api=False)
                 with gr.Column(scale=2):
                     gr.Markdown("### 📋 仓库详情")
                     repos_table = gr.DataFrame(
                         headers=["仓库", "文件数", "最后更新", "状态"],
                         datatype=["str", "number", "str", "str"],
-                        label="已导入仓库",
+                        # label="已导入仓库",
                         interactive=False,
                         wrap=True,
                         max_height=300
@@ -74,6 +76,42 @@ class Management:
                         lines=6,
                     )
 
+            # 刷新仓库列表
+            refresh_repos_btn.click(fn=self._load_repository_detail, outputs=[repos_table,delete_repo_dropdown], show_api=False)
+
+            # 删除仓库下拉框发生变化，决定是否禁用按钮
+            delete_repo_dropdown.change(
+                fn=self._check_delete_button_state,
+                inputs=[delete_repo_dropdown,confirm_delete],
+                outputs=[delete_btn],
+            )
+            # 复选框发生变化时，决定是否禁用按钮
+            confirm_delete.change(
+                fn=self._check_delete_button_state,
+                inputs=[delete_repo_dropdown, confirm_delete],
+                outputs=[delete_btn],
+            )
+
+            # 删除按钮点击
+            delete_btn.click(
+                fn=self._delete_repository,
+                inputs=[delete_repo_dropdown,confirm_delete],
+                outputs=[deletion_status,delete_repo_dropdown,confirm_delete,repos_table],
+                show_api=False,
+            )
+
+            #初始化加载数据
+            self.demo.load(
+                fn=self._load_repository_stats,
+                outputs=[stats_json],
+                show_api=False
+            )
+            self.demo.load(
+                fn=self._load_repository_detail,
+                outputs=[repos_table,delete_repo_dropdown],
+                show_api=False
+            )
+
         return tab
 
     def _load_repository_stats(self)->Dict[str,Any]:
@@ -113,3 +151,72 @@ class Management:
         except Exception as e:
             logger.error(f"加载仓库详情信息失败: {e}")
             return [["加载仓库时出错", 0, str(e), "错误"]], []
+
+
+    def _check_delete_button_state(self,repo_selected: str, confirmation_checked: bool)->bool:
+        if repo_selected and repo_selected != '' and confirmation_checked:
+            return True
+        else:
+            return False
+
+    def _delete_repository(self,repo_name: str, confirmed: bool):
+        """删除仓库"""
+        if not repo_name or repo_name == '':
+            table_data, dropdown_choices = self._load_repository_detail()
+            return (
+                "❌ 未选择仓库。",
+                gr.Dropdown(
+                    choices=dropdown_choices,
+                    value=None,
+                    label="选择要删除的仓库",
+                    interactive=True,
+                    allow_custom_value=False,
+                ),
+                gr.Checkbox(value=confirmed),
+                table_data,
+            )
+        if not confirmed:
+            table_data, dropdown_choices = self._load_repository_details()
+            return (
+                "❌ 请勾选确认框以确认删除。",
+                gr.Dropdown(
+                    choices=dropdown_choices,
+                    value=repo_name,
+                    label="选择要删除的仓库",
+                    interactive=True,
+                    allow_custom_value=False,
+                ),
+                gr.Checkbox(value=False),
+                table_data,
+            )
+        try:
+            logger.info(f"正在删除仓库：{repo_name}")
+            result = repository_manager.delete_repository_data(repo_name)
+
+            # 删除后刷新数据
+            table_data, dropdown_choices = self._load_repository_details()
+
+            updated_dropdown = gr.Dropdown(
+                choices=dropdown_choices,
+                value=None,
+                label="选择要删除的仓库",
+                interactive=True,
+                allow_custom_value=False,
+            )
+
+            if result['success']:
+                return (
+                    f"✅ {result['message']}",
+                    updated_dropdown,
+                    gr.Checkbox(value=False),
+                    table_data,
+                )
+            else:
+                return (
+                    f"❌ {result['message']}",
+                    updated_dropdown,
+                    gr.Checkbox(value=False),
+                    table_data,
+                )
+        except Exception as e:
+            raise e

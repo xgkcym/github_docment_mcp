@@ -22,7 +22,7 @@ class RepositoryManager:
             return {}
         except Exception as e:
             logger.error(f"[数据库查询失败] 获取仓库统计信息失败,错误信息:${str(e)}")
-            raise Exception(f"[数据库查询失败] 获取仓库统计信息失败,错误信息:${str(e)}") from e
+            return {"error": str(e)}
 
 
     def get_repository_detail(self)-> List[Dict[str, Any]]:
@@ -44,5 +44,35 @@ class RepositoryManager:
             return sorted(repos,key=lambda x: x["name"])
         except Exception as e:
             logger.error(f"[数据库查询失败] 获取仓库详情失败,错误信息:${str(e)}")
-            raise Exception(f"[数据库查询失败] 获取仓库详情失败,错误信息:${str(e)}") from e
+            return []
+    def delete_repository_data(self,repo_name:str)->Dict[str, Any]:
+        try:
+            docs_result = self.docs_collection.delete_many({"metadata.repo": repo_name})
+            repos_result = self.repos_connection.delete_one({"_id": repo_name})
+            logger.info(
+                f"已删除仓库 {repo_name}：{docs_result.deleted_count} 个文档，{repos_result.deleted_count} 条仓库条目"
+            )
+            return {
+                "success": True,
+                "documents_deleted": docs_result.deleted_count,
+                "repository_deleted": repos_result.deleted_count > 0,
+                "message": f"成功删除仓库 '{repo_name}' 的 {docs_result.deleted_count} 个文档",
+            }
+        except Exception as e:
+            logger.error(f"[删除仓库]:--{repo_name}--仓库删除失败,错误信息:{str(e)}")
+            return {
+                "success": False,
+                "error": str(e),
+                "message": f"删除仓库 '{repo_name}' 失败：{str(e)}",
+            }
+
+
+    def get_available_repositories(self)->List[str]:
+        """获取可用仓库列表。"""
+        try:
+            repos = self.repos_connection.distinct("repo_name")
+            return sorted(repos) if repos else []
+        except Exception as e:
+            logger.error(f"获取可用仓库失败: {e}")
+            return []
 repository_manager = RepositoryManager()

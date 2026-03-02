@@ -1,32 +1,37 @@
 
 import gradio as gr
+from gradio import Blocks
 
-from src.ui.tabs.management import Management
-from src.ui.tabs.update_tab import UpdateTab
+from src.ui.tabs.management import ManagementTab
+from src.ui.tabs.update import UpdateTab
+from ui.tabs.ingestion import IngestionTab
 
 
 class DocMCPApp:
-
     def __init__(self):
+        self.ingestion_tab = IngestionTab()
         self.management_tab = None
         self.update_tab = None
 
-    def creat_interface(self)->gr.Blocks:
-        with gr.Blocks(title="Document-MCP") as blocks:
+    def create_interface(self)->gr.Blocks:
+        """创建主 Gradio 界面。"""
+        with gr.Blocks(title="Document-MCP") as demo:
             gr.Markdown("# 📚 Doc-MCP：文档 RAG 系统")
             gr.Markdown(
                 "将 GitHub 文档仓库转换为可供 AI 智能体访问的 MCP（模型上下文协议）服务器。"
                 "上传文档，生成向量嵌入，并通过智能上下文检索进行查询。"
             )
-            self.management_tab = Management(blocks)
-            self.update_tab = UpdateTab(blocks)
+            self.management_tab = ManagementTab(demo)
+            self.update_tab = UpdateTab(demo)
             with gr.Tabs():
+                self.ingestion_tab.create_tab()
                 self.management_tab.create_tab()
-        return blocks
+                self.update_tab.create_tab()
+        return demo
 
     def launch(self):
-        blocks = self.creat_interface()
-        return blocks.launch(mcp_server=True,share=True)
+        demo = self.create_interface()
+        return demo.launch(mcp_server=True,share=True)
 
 
 def create_app()->DocMCPApp:
@@ -35,7 +40,7 @@ def create_app()->DocMCPApp:
 
 if __name__ == '__main__':
     try:
-        app = create_app()
-        app.launch()
+        demo = create_app()
+        demo.launch()
     except Exception as ex:
         print(ex)
