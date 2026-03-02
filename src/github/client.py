@@ -5,6 +5,7 @@ import requests
 from core.exceptions import GitHubError, GitHubRepositoryNotFoundError, GitHubRateLimitError, GitHubAuthenticationError
 from core.settings import settings
 from github.parse import parse_github_url, build_github_api_url
+from utils.logger_handler import logger
 
 
 class GitHubClient:
@@ -53,7 +54,21 @@ class GitHubClient:
             for item in data.get("tree", []):
                 if item["type"] == "blob":
                     file_path = item["path"]
+                    if any(
+                            file_path.lower().endswith(ext.lower())
+                            for ext in file_extensions
+                    ):
+                        if include_sha:
+                            file_data = {"path": file_path, "sha": item["sha"]}
+                            filtered_files.append(file_data)
+                        else:
+                            filtered_files.append(file_path)
 
+
+            ext_str = ", ".join(file_extensions)
+            message = f"在 {repo_name}/{branch} 中找到 {len(filtered_files)} 个扩展名为 ({ext_str}) 的文件"
+            logger.info(message)
+            return filtered_files, message
 
         except requests.exceptions.Timeout:
             raise GitHubError(f"请求超时，已超过 {settings.github_timeout} 秒") from None
