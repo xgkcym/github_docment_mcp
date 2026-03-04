@@ -1,0 +1,1117 @@
+2026-03-04 10:32:24,914 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:32:45,795 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:34:59,264 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:36:55,098 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:38:03,270 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:38:54,966 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:40:15,019 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:41:04,995 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:41:51,037 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:42:12,650 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:42:23,376 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:42:56,384 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:43:27,076 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:44:14,647 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:44:44,230 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:45:25,823 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:49:24,245 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:49:26,571 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 10:49:26,576 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 10:49:27,426 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 10:49:27,427 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 10:49:28,113 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 10:49:28,241 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 10:49:29,128 - agent - INFO - 成功在 0.88 秒内为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 10:49:57,192 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:50:07,188 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:50:09,529 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 10:50:09,530 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 10:50:11,005 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 10:50:11,005 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 10:50:12,269 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 10:50:12,381 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 10:50:13,114 - agent - INFO - 索引中节点数量: 0
+2026-03-04 10:51:50,337 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:52:04,856 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:52:08,289 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 10:52:08,290 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 10:52:09,556 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 10:52:09,556 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 10:52:10,413 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 10:52:10,413 - agent - ERROR - 0.00秒后向量导入错误：Got a larger chunk overlap (200) than chunk size (128), should be smaller.
+2026-03-04 10:53:21,381 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:53:29,912 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:53:32,378 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 10:53:32,380 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 10:53:32,954 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 10:53:32,955 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 10:53:34,123 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 10:53:34,236 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 10:53:35,432 - agent - INFO - 索引中节点数量: 0
+2026-03-04 10:53:51,304 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:53:53,895 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 10:53:53,897 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 10:54:02,650 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 10:54:02,652 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 10:54:04,952 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 97 个文档进行向量导入
+2026-03-04 10:54:04,954 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 97 个文档
+2026-03-04 10:54:40,004 - agent - INFO - 索引中节点数量: 0
+2026-03-04 10:58:35,788 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 10:58:49,321 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 10:58:51,474 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 10:58:51,476 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 10:59:01,301 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 10:59:01,303 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 10:59:03,740 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 97 个文档进行向量导入
+2026-03-04 10:59:03,853 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 97 个文档
+2026-03-04 10:59:41,406 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:03:29,365 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:03:41,443 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:03:45,833 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:03:45,834 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:03:47,563 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:03:47,563 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:03:48,625 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:03:48,738 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:03:48,864 - agent - ERROR - [文档导入失败] 错误信息:'DocumentIngestionPipeline' object has no attribute 'text_splitter'
+2026-03-04 11:04:08,068 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:04:16,443 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:04:18,850 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:04:18,852 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:04:19,510 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:04:19,510 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:04:20,437 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:04:20,548 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:04:21,630 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:05:45,277 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:05:51,430 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:06:01,923 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:06:04,701 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:06:04,703 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:06:05,333 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:06:05,333 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:06:06,370 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:06:06,482 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:06:07,729 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:13:14,704 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:14:01,393 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:14:03,800 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:14:03,802 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:14:04,665 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:14:04,666 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:14:05,528 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:14:05,640 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:14:06,630 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:18:51,749 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:19:02,650 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:19:05,003 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:19:05,004 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:19:05,580 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:19:05,581 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:19:06,546 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:19:06,658 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:19:07,258 - agent - ERROR - [文档导入失败] 错误信息:6 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 11:21:57,459 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:21:57,461 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:21:58,160 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:21:58,161 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:21:59,282 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:21:59,283 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:21:59,591 - agent - ERROR - [文档导入失败] 错误信息:6 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 11:26:05,220 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:26:20,822 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:26:23,584 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 2 个文件
+2026-03-04 11:26:23,586 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 2 个文件
+2026-03-04 11:26:23,614 - agent - ERROR - 获取 CLAUDE.md 失败：网络错误：Cannot connect to host api.github.com:443 ssl:default [getaddrinfo failed]
+2026-03-04 11:26:23,614 - agent - ERROR - 获取 CODE_OF_CONDUCT.md 失败：网络错误：Cannot connect to host api.github.com:443 ssl:default [getaddrinfo failed]
+2026-03-04 11:26:23,614 - agent - INFO - 成功获取 0 个文件，2 个失败
+2026-03-04 11:26:23,614 - agent - INFO - 成功加载 0 个文档，2 个失败
+2026-03-04 11:26:27,192 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 2 个文件
+2026-03-04 11:26:27,194 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 2 个文件
+2026-03-04 11:26:28,315 - agent - INFO - 成功获取 2 个文件，0 个失败
+2026-03-04 11:26:28,315 - agent - INFO - 成功加载 2 个文档，0 个失败
+2026-03-04 11:26:29,791 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 2 个文档进行向量导入
+2026-03-04 11:26:29,910 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 2 个文档
+2026-03-04 11:26:30,613 - agent - ERROR - [文档导入失败] 错误信息:9 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 11:27:35,216 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:27:45,734 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:27:47,509 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:27:47,511 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:27:48,127 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:27:48,128 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:27:49,339 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:27:49,452 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:27:50,093 - agent - ERROR - [文档导入失败] 错误信息:6 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 11:32:20,870 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:32:30,882 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:32:33,248 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:32:33,250 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:32:33,865 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:32:33,866 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:32:34,834 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:32:34,948 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:32:36,176 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:36:09,242 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:36:21,238 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:36:24,016 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:36:24,018 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:36:24,604 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:36:24,604 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:36:25,566 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:36:25,681 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:36:27,206 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:40:29,111 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:40:37,472 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:40:40,226 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:40:40,228 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:40:41,547 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:40:41,547 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:40:42,516 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:40:42,626 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:40:43,837 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:41:07,817 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:41:14,309 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:41:16,599 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:41:16,601 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:41:17,801 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:41:17,802 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:41:18,906 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:41:19,027 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:41:20,105 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:44:58,510 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:45:07,469 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:45:09,856 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:45:09,858 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:45:10,626 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:45:10,627 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:45:11,833 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:45:11,947 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:45:13,075 - agent - INFO - 索引中节点数量: 0
+2026-03-04 11:50:14,604 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 11:50:21,081 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 11:50:23,767 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 11:50:23,769 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 11:50:24,560 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 11:50:24,560 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 11:50:25,063 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 11:50:25,175 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 11:50:26,213 - agent - INFO - 索引中节点数量: 3
+2026-03-04 11:50:26,214 - agent - INFO - 成功在 1.04 秒内为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 12:01:53,208 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 12:02:04,011 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 12:02:06,595 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 12:02:06,596 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 12:02:07,180 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 12:02:07,180 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 12:02:08,126 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 12:02:08,241 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 12:02:08,242 - agent - ERROR - 获取向量存储失败：'_Settings' object is not callable
+2026-03-04 12:02:08,242 - agent - ERROR - [文档导入失败] 错误信息:获取向量存储失败：'_Settings' object is not callable
+2026-03-04 14:08:39,441 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 14:09:05,325 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 14:09:08,823 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 14:09:08,824 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 14:09:09,650 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 14:09:09,651 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 14:09:10,321 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 14:09:10,437 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 14:09:11,477 - agent - INFO - 索引中节点数量: 3
+2026-03-04 14:09:11,479 - agent - INFO - 成功在 1.04 秒内为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 14:55:03,168 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 14:55:19,707 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 14:55:22,540 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 14:55:22,542 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 14:55:24,275 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 14:55:24,276 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 14:55:25,549 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 14:55:26,129 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 14:55:27,364 - agent - INFO - 索引中节点数量: 0
+2026-03-04 14:55:58,683 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 14:57:09,130 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 15:01:00,494 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 15:01:42,274 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 15:01:44,441 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 15:01:44,442 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 15:01:45,073 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 15:01:45,073 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 15:01:46,705 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 15:01:46,821 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 15:01:47,889 - agent - INFO - 成功在 1.07 秒内为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 16:09:33,584 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:09:46,643 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:09:49,345 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 16:09:49,347 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 16:10:05,584 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 16:10:05,586 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 16:10:07,252 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 97 个文档进行向量导入
+2026-03-04 16:10:07,860 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 97 个文档
+2026-03-04 16:10:09,165 - agent - ERROR - [文档导入失败] 错误信息:25 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.9
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.10
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.11
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.12
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.13
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.14
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.15
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.16
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.17
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.18
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.19
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.20
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.21
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.22
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.23
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.24
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 16:12:34,839 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:12:58,499 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:13:01,952 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 16:13:01,954 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 16:13:11,850 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 16:13:11,852 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 16:13:13,118 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 97 个文档进行向量导入
+2026-03-04 16:13:13,233 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 97 个文档
+2026-03-04 16:13:14,417 - agent - ERROR - [文档导入失败] 错误信息:100 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.9
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.10
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.11
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.12
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.13
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.14
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.15
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.16
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.17
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.18
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.19
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.20
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.21
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.22
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.23
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.24
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.25
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.26
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.27
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.28
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.29
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.30
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.31
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.32
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.33
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.34
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.35
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.36
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.37
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.38
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.39
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.40
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.41
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.42
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.43
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.44
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.45
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.46
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.47
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.48
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.49
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.50
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.51
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.52
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.53
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.54
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.55
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.56
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.57
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.58
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.59
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.60
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.61
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.62
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.63
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.64
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.65
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.66
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.67
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.68
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.69
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.70
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.71
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.72
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.73
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.74
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.75
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.76
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.77
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.78
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.79
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.80
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.81
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.82
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.83
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.84
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.85
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.86
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.87
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.88
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.89
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.90
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.91
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.92
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.93
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.94
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.95
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.96
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.97
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.98
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.99
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 16:13:36,851 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:13:45,238 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 10 个文件
+2026-03-04 16:13:45,240 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 10 个文件
+2026-03-04 16:13:48,226 - agent - INFO - 成功获取 10 个文件，0 个失败
+2026-03-04 16:13:48,226 - agent - INFO - 成功加载 10 个文档，0 个失败
+2026-03-04 16:13:54,298 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 10 个文档进行向量导入
+2026-03-04 16:13:54,300 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:13:55,256 - agent - ERROR - [文档导入失败] 错误信息:28 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.9
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.10
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.11
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.12
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.13
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.14
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.15
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.16
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.17
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.18
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.19
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.20
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.21
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.22
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.23
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.24
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.25
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.26
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.27
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 16:14:04,636 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:14:11,480 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 6 个文件
+2026-03-04 16:14:11,482 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 6 个文件
+2026-03-04 16:14:13,586 - agent - INFO - 成功获取 6 个文件，0 个失败
+2026-03-04 16:14:13,586 - agent - INFO - 成功加载 6 个文档，0 个失败
+2026-03-04 16:14:14,590 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 6 个文档进行向量导入
+2026-03-04 16:14:14,591 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 6 个文档
+2026-03-04 16:14:15,525 - agent - ERROR - [文档导入失败] 错误信息:21 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.9
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.10
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.11
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.12
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.13
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.14
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.15
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.16
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.17
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.18
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.19
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.20
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 16:14:29,593 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:14:42,265 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:14:48,374 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 5 个文件
+2026-03-04 16:14:48,376 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 5 个文件
+2026-03-04 16:14:49,559 - agent - INFO - 成功获取 5 个文件，0 个失败
+2026-03-04 16:14:49,559 - agent - INFO - 成功加载 5 个文档，0 个失败
+2026-03-04 16:14:50,653 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 5 个文档进行向量导入
+2026-03-04 16:14:50,769 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 5 个文档
+2026-03-04 16:14:51,853 - agent - ERROR - [文档导入失败] 错误信息:17 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.9
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.10
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.11
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.12
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.13
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.14
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.15
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.16
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 16:16:46,444 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:16:51,466 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 1 个文件
+2026-03-04 16:16:51,467 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 1 个文件
+2026-03-04 16:16:52,277 - agent - INFO - 成功获取 1 个文件，0 个失败
+2026-03-04 16:16:52,277 - agent - INFO - 成功加载 1 个文档，0 个失败
+2026-03-04 16:16:53,253 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 1 个文档进行向量导入
+2026-03-04 16:16:53,255 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 16:16:54,817 - agent - INFO - 成功在 1.56 秒内为 Arindam200/awesome-ai-apps 导入 1 个文档
+2026-03-04 16:18:49,638 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:30:17,873 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:32:07,547 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:32:19,623 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:32:25,489 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 7 个文件
+2026-03-04 16:32:25,491 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 7 个文件
+2026-03-04 16:32:26,730 - agent - INFO - 成功获取 7 个文件，0 个失败
+2026-03-04 16:32:26,731 - agent - INFO - 成功加载 7 个文档，0 个失败
+2026-03-04 16:32:27,740 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 7 个文档进行向量导入
+2026-03-04 16:32:27,852 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 7 个文档
+2026-03-04 16:32:28,949 - agent - ERROR - [文档导入失败] 错误信息:22 validation errors for EmbeddingEndEvent
+embeddings.0
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.1
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.2
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.3
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.4
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.5
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.6
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.7
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.8
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.9
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.10
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.11
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.12
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.13
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.14
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.15
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.16
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.17
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.18
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.19
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.20
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+embeddings.21
+  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2026-03-04 16:33:35,848 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:33:48,513 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:33:53,642 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 7 个文件
+2026-03-04 16:33:53,644 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 7 个文件
+2026-03-04 16:33:55,029 - agent - INFO - 成功获取 7 个文件，0 个失败
+2026-03-04 16:33:55,029 - agent - INFO - 成功加载 7 个文档，0 个失败
+2026-03-04 16:33:58,056 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 7 个文档进行向量导入
+2026-03-04 16:33:58,172 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 7 个文档
+2026-03-04 16:34:02,027 - agent - INFO - 成功在 3.85 秒内为 Arindam200/awesome-ai-apps 导入 7 个文档
+2026-03-04 16:40:53,719 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:41:00,647 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:41:02,894 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 16:41:02,896 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 16:41:27,344 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 16:41:27,346 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 16:41:28,767 - agent - INFO - 开始为来自 Arindam200/awesome-ai-apps/main 的 97 个文档进行向量导入
+2026-03-04 16:41:28,883 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:34,241 - agent - INFO - 成功在 5.36 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:34,243 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:38,623 - agent - INFO - 成功在 4.38 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:38,625 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:42,199 - agent - INFO - 成功在 3.57 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:42,201 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:45,173 - agent - INFO - 成功在 2.97 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:45,175 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:49,890 - agent - INFO - 成功在 4.71 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:49,891 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:52,717 - agent - INFO - 成功在 2.82 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:52,718 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:55,108 - agent - INFO - 成功在 2.39 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:55,110 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:57,572 - agent - INFO - 成功在 2.46 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:57,574 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:59,723 - agent - INFO - 成功在 2.15 秒内为 Arindam200/awesome-ai-apps 导入 10 个文档
+2026-03-04 16:41:59,724 - agent - INFO - 开始为 Arindam200/awesome-ai-apps 导入 7 个文档
+2026-03-04 16:42:01,162 - agent - INFO - 成功在 1.44 秒内为 Arindam200/awesome-ai-apps 导入 7 个文档
+2026-03-04 16:48:38,785 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:51:00,369 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 16:51:21,499 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 16:51:23,976 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 16:51:23,978 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 16:51:49,201 - agent - ERROR - 获取 memory_agents/blog_writing_agent/README.md 失败：网络错误：Cannot connect to host api.github.com:443 ssl:default [信号灯超时时间已到]
+2026-03-04 16:51:49,201 - agent - INFO - 成功获取 96 个文件，1 个失败
+2026-03-04 16:51:49,203 - agent - INFO - 成功加载 96 个文档，1 个失败
+2026-03-04 16:51:53,023 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 16:51:53,025 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 16:52:13,253 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 16:52:13,254 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:00:04,847 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 17:00:04,849 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 17:00:14,290 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 17:00:14,292 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:00:18,741 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 17:00:18,743 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 17:00:26,355 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 17:00:26,357 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:00:38,446 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 17:00:42,156 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 17:00:42,158 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 17:00:55,405 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 17:00:55,407 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:05:52,282 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 17:06:00,395 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 17:06:02,759 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 17:06:02,761 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 17:06:15,494 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 17:06:15,496 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:06:23,360 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 0 个文件
+2026-03-04 17:06:32,459 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 17:08:48,245 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 17:08:50,603 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 17:08:50,607 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 17:09:01,764 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 17:09:01,765 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:10:51,760 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 17:10:54,247 - agent - INFO - 开始从 https://github.com/Arindam200/awesome-ai-apps/main 加载 97 个文件
+2026-03-04 17:10:54,249 - agent - INFO - 正在从 Arindam200/awesome-ai-apps 加载 97 个文件
+2026-03-04 17:11:09,606 - agent - INFO - 成功获取 97 个文件，0 个失败
+2026-03-04 17:11:09,608 - agent - INFO - 成功加载 97 个文档，0 个失败
+2026-03-04 17:12:58,563 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 18:15:15,348 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 18:15:31,983 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 18:27:50,490 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 18:28:05,715 - agent - INFO - 在 Arindam200/awesome-ai-apps/main 中找到 97 个扩展名为 (.md, .mdx) 的文件
+2026-03-04 19:08:21,017 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 19:08:38,753 - agent - ERROR - 查询执行错误：QueryRetriever() takes no arguments
+2026-03-04 19:10:14,920 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 19:10:30,586 - agent - ERROR - 查询执行错误：type object 'FilterOperator' has no attribute 'EQ'
+2026-03-04 19:11:16,157 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 19:11:34,524 - agent - INFO - 为 Arindam200/awesome-ai-apps 处理查询：'default...'
+2026-03-04 19:11:34,524 - agent - ERROR - 查询在 0.00 秒后失败：'Hello' is not a valid VectorStoreQueryMode
+2026-03-04 19:12:14,457 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 19:12:32,678 - agent - INFO - 为 Arindam200/awesome-ai-apps 处理查询：'Hello...'
+2026-03-04 19:13:08,300 - agent - INFO - MongoDB数据库连接成功
+2026-03-04 19:13:31,894 - agent - INFO - 为 Arindam200/awesome-ai-apps 处理查询：'learning mcp...'
+2026-03-04 19:29:27,006 - agent - INFO - MongoDB数据库连接成功

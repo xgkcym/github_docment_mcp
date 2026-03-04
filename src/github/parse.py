@@ -58,3 +58,25 @@ def build_github_api_url(owner: str, repo: str, path: str = "", branch: str = "m
         return f"{base_url}/contents/{path.strip('/')}?ref={branch}"
     else:
         return f"{base_url}/git/trees/{branch}?recursive=1"
+
+def build_github_web_url(
+    owner: str, repo: str, path: str = "", branch: str = "main"
+) -> str:
+    """
+    为文件构建 GitHub 网页 URL。
+
+    参数:
+        owner: 仓库所有者
+        repo: 仓库名称
+        path: 仓库内的可选路径
+        branch: 分支名称（默认：main）
+
+    返回:
+        格式化后的 GitHub 网页 URL
+    """
+    base_url = f"https://github.com/{owner}/{repo}"
+
+    if path:
+        return f"{base_url}/blob/{branch}/{path}"
+    else:
+        return f"{base_url}/tree/{branch}"

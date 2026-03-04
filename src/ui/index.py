@@ -5,11 +5,13 @@ from gradio import Blocks
 from src.ui.tabs.management import ManagementTab
 from src.ui.tabs.update import UpdateTab
 from ui.tabs.ingestion import IngestionTab
+from ui.tabs.query import QueryTab
 
 
 class DocMCPApp:
     def __init__(self):
         self.ingestion_tab = IngestionTab()
+        self.query_tab = QueryTab()
         self.management_tab = None
         self.update_tab = None
 
@@ -25,7 +27,8 @@ class DocMCPApp:
             self.update_tab = UpdateTab(demo)
             with gr.Tabs():
                 self.ingestion_tab.create_tab()
-                self.management_tab.create_tab()
+                self.query_tab.create_tab()
+                # self.management_tab.create_tab()
                 self.update_tab.create_tab()
         return demo
 

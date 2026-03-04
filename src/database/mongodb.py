@@ -35,7 +35,7 @@ class MongoDBClient:
             self._db = self.client[settings.db_name]
         return self._db
 
-    def get_connection(self,collection_name:str) -> Collection:
+    def get_collection(self,collection_name:str) -> Collection:
         """按名称获取集合。"""
         return self.database[collection_name]
 
