@@ -6,6 +6,7 @@ import aiohttp
 import requests
 from aiohttp import ClientTimeout
 
+from api.niu_trans import create_translate
 from core.exceptions import GitHubError, GitHubRepositoryNotFoundError, GitHubRateLimitError, GitHubAuthenticationError
 from core.settings import settings
 from core.types import GitHubFileInfo

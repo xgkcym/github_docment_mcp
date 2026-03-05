@@ -2,10 +2,11 @@ import time
 from typing import List, Optional, Callable
 
 from llama_index.core import Document, VectorStoreIndex, StorageContext, Settings
-from llama_index.core.node_parser import SentenceSplitter
+from llama_index.core.node_parser import SentenceSplitter, MarkdownNodeParser
 from llama_index.embeddings.dashscope import DashScopeEmbedding
 from llama_index.llms.openai_like import OpenAILike
 
+from api.niu_trans import create_translate
 from core.settings import settings
 from database.repository import repository_manager
 from database.vector_store import get_vector_store
@@ -28,6 +29,8 @@ class DocumentIngestionPipeline:
         )
         Settings.text_splitter = self.text_splitter
         Settings.node_parser = self.text_splitter
+        self.markdown_parser = MarkdownNodeParser()
+
         Settings.llm = OpenAILike(
             is_chat_model=True,
             model=settings.default_llm_model,
@@ -42,7 +45,7 @@ class DocumentIngestionPipeline:
 
 
 
-    async def ingest_documents(self,documents: List[Document], repo_name: str, branch: str, files_with_sha: Optional[List[dict]]) -> bool:
+    async def ingest_documents(self,documents: List[Document], repo_name: str, branch: str, files_with_sha: Optional[List[dict]],allow_trans:bool=settings.allow_trans) -> bool:
         """
            将文档导入向量存储。
            参数:
@@ -59,18 +62,49 @@ class DocumentIngestionPipeline:
         total_docs = len(documents)
 
         try:
+            if allow_trans:
+                # 进行翻译
+                translate = create_translate()
+                new_documents = []
+                for doc in documents:
+                    new_documents.append(
+                        Document(
+                            text=translate.identification(doc.text),
+                            doc_id=doc.doc_id,
+                            metadata=doc.metadata,
+                        )
+                    )
+                documents = new_documents
+
+
+            # 根据文件类型选择不同的解析器
+            transformations = []
+
+            # 检查是否全是 Markdown
+            has_markdown = any(
+                doc.metadata.get("file_extension", "").lower() in ["md", "mdx"]
+                for doc in documents
+            )
+
+            if has_markdown:
+                # 对 Markdown 使用专用解析器，对普通文本使用 SentenceSplitter
+                # LlamaIndex 会自动根据文档类型应用合适的解析
+                transformations = [self.markdown_parser, self.text_splitter]
+            else:
+                transformations = [self.text_splitter]
+
+
             logger.info(f"开始为 {repo_name} 导入 {total_docs} 个文档")
             # 获取向量存储
             vector_store = get_vector_store()
             storage_context = StorageContext.from_defaults(vector_store=vector_store)
             # 创建索引并导入文档
-            VectorStoreIndex.from_documents(
+            index = VectorStoreIndex.from_documents(
                 documents=documents,
                 storage_context=storage_context,
                 show_progress=True,  # 自己处理进度
-                transformations=[self.text_splitter],
+                transformations=transformations
             )
-
             # 报告完成
             elapsed_time = time.time() - start_time
 
@@ -106,6 +140,7 @@ async def ingest_documents_async(
     progress_callback: Optional[Callable[[IngestionProgress], None]] = None,
     branch: Optional[str] = "main",
     files_with_sha: Optional[List[dict]] = None,
+    allow_trans:bool=settings.allow_trans
 ) -> bool:
     """
     文档导入的异步包装器。
@@ -119,4 +154,4 @@ async def ingest_documents_async(
         成功返回 True，否则返回 False
     """
     pipeline = DocumentIngestionPipeline(progress_callback)
-    return await pipeline.ingest_documents(documents, repo_name, branch, files_with_sha)
+    return await pipeline.ingest_documents(documents, repo_name, branch, files_with_sha,allow_trans)

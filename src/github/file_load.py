@@ -65,7 +65,7 @@ async def load_files_from_github(
     repo_url: str,
     file_paths: List[str],
     branch: str = "main",
-    max_concurrent: int = 10
+    max_concurrent: int = 10,
 )->Tuple[List[Document], List[str]]:
     """
     从 GitHub 仓库加载多个文件。

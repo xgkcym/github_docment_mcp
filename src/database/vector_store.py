@@ -10,15 +10,20 @@ from utils.logger_handler import logger
 def get_vector_store():
     """获取配置好的向量存储实例。"""
     try:
-        # 初始化 Chroma 客户端
-        # chroma_client = Client(
-        #     Settings(
-        #         persist_directory=settings.chroma_data_url,
-        #     ),
-        # )
         chroma_client = chromadb.PersistentClient(path=settings.chroma_data_url)
         # 创建或获取集合（collection）
-        collection = chroma_client.get_or_create_collection(settings.rag_collection_name)
+        collection = chroma_client.get_or_create_collection(
+            settings.rag_collection_name,
+            metadata={
+                "hnsw:space": "cosine",
+                # "hnsw:M": 32,  # 默认16→32，连接数翻倍，提升召回
+                # "hnsw:efConstruction": 400,  # 默认100→400，建索引更精细
+                # "hnsw:efSearch": 200,  # 默认100→200，查询时搜索更广
+                # "hnsw:num_threads": 4,  # 多线程加速
+            }
+        )
+
+        # 记录集合状态
         return ChromaVectorStore(chroma_collection=collection)
 
     except Exception as e:

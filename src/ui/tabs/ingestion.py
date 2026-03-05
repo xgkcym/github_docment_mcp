@@ -388,7 +388,7 @@ class IngestionTab:
             # 运行异步导入，避免事件循环问题
             for i in range(0,len(documents),settings.embed_batch_size):
                 success = await ingest_documents_async(
-                    documents[i:i + settings.embed_batch_size], repo_name, branch=branch, files_with_sha=files_with_sha
+                    documents[i:i + settings.embed_batch_size], repo_name, branch=branch, files_with_sha=files_with_sha,allow_trans=settings.allow_trans
                 )
                 success_list.append(success)
 
