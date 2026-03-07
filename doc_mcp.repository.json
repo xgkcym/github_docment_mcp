@@ -1,0 +1,810 @@
+[{
+  "_id": "langchain-ai/langchain",
+  "repo_name": "langchain-ai/langchain",
+  "branch": "master",
+  "file_count": 1,
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "8a6f6e53f257380deb2a40180cd085f80a6c3720",
+      "last_ingested": {
+        "$date": "2026-03-06T14:05:21.781Z"
+      },
+      "status": "已导入"
+    }
+  ],
+  "last_updated": {
+    "$date": "2026-03-06T14:05:21.781Z"
+  },
+  "status": "complete",
+  "tracking_enabled": true
+},
+{
+  "_id": "8635891c-6b89-44f1-8311-8905eac65001",
+  "repo_name": "Arindam200/awesome-ai-apps",
+  "branch": "main",
+  "file_count": 97,
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "d0057d1077cb2b216b1149d3afc5ad567eebc6ff",
+      "last_ingested": {
+        "$date": "2026-03-07T15:08:38.031Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "bce42527443fc57a1e6fb6706d745eba201ae5f6",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": ".github/README_TEMPLATE.md",
+      "sha": "82b0d0e36d5fb76fb5dc4dd3be3abb14e461736b",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "7b700bde28b9df0c54fbcf3d282b650ac6338b24",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "361ac10aae45351adfed14582255bf7575840774",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "cff2faca69738d1be87c6214db46556b4feff407",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/agentfield_finance_research_agent/README.md",
+      "sha": "a9fb6857c9ab0fd9290f81c281f04fa60cbf0ccc",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/agentfield_finance_research_agent/proposal.md",
+      "sha": "8fb91d7496f7d1d9594d2a5e8c05530a9f4af472",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/ai-hedgefund/README.md",
+      "sha": "47a10d0aba32d248c846fdc972eae5b9d026a28a",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/candidate_analyser/README.md",
+      "sha": "96cbbb203be3d52b300f306a10327a1e1364f3b2",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/car_finder_agent/README.md",
+      "sha": "683ea4f00b225fc5d34e354f9672e07dca9472d9",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/conference_agnositc_cfp_generator/README.md",
+      "sha": "26b1d21826a027378a4e6ea71df3b0cd3ea17ccd",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/conference_talk_abstract_generator/README.md",
+      "sha": "285ae01401688df4d661824d28101516f7eb51b4",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/content_team_agent/README.md",
+      "sha": "cb4026e3c6767d830a28a8dbfec3dee0bf88a919",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/deep_researcher_agent/README.md",
+      "sha": "8defa9e042373909ea5117b8911ee9ea0118e6e0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/finance_service_agent/README.md",
+      "sha": "32bbcdc366d5899c3787f23e1c29ca0c0e79c023",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/job_finder_agent/README.md",
+      "sha": "1d66cb211706c888452e1d46c2808cd2ae8f7466",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/meeting_assistant_agent/README.md",
+      "sha": "fd020a708df76eef8f503d9b18d1e3b1d495d291",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/price_monitoring_agent/README.md",
+      "sha": "91f132d8d9602d7321ed7ecbd9686033daa8c85a",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/smart_gtm_agent/README.md",
+      "sha": "dd2b7b831ba56b008879f59cade2e310030c3561",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/startup_idea_validator_agent/README.md",
+      "sha": "8f8f90a2fe0fb267653d033b271f5a793f22cae4",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "advance_ai_agents/trend_analyzer_agent/README.md",
+      "sha": "d15cfe6e6f782831713b8959a5b72627ecfd5be5",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/01_basic_agent/README.md",
+      "sha": "a1c92430d0d1aeb0e737033541bc2e73284d4407",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/02_session_management/README.md",
+      "sha": "125ca4429c49b0c6528fdc76049be43eab7c9e7a",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/03_structured_output/README.md",
+      "sha": "ac1b38728afb7daff3f6cf3e4ee061a1f513fed0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/04_mcp_agent/README.md",
+      "sha": "1511c48199067a20745aa73416263e520adce3cd",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/05_human_in_the_loop_agent/README.md",
+      "sha": "dd2685ccc593da17248f0b99ad313834969dbdf1",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/06_multi_agent_pattern/06_1_agent_as_tools/README.md",
+      "sha": "303ed0b042b4c5453fdfa03328a8a956257728d2",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/06_multi_agent_pattern/06_2_swarm_agent/README.md",
+      "sha": "3e1bd3a2e96dce783ced1d305782664f8f6becca",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/06_multi_agent_pattern/06_3_graph_agent/README.md",
+      "sha": "32f785f1bb5ea8de2b3e546e4260f58eac191959",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/06_multi_agent_pattern/06_4_workflow_agent/README.md",
+      "sha": "1d33b308f5cf0d7d1e262d4b70acd6f5952e218e",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/06_multi_agent_pattern/README.md",
+      "sha": "3dd2200f9092a19bdeccdea4a2d7a078db184eaa",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/07_observability/README.md",
+      "sha": "f6905198b116447a30becf0ee07072abf1113eec",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/08_guardrails/README.md",
+      "sha": "6a8b11d074b9441af7c7ea1221ce908cfb93be7a",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "course/aws_strands/README.md",
+      "sha": "85587f341974cbac0b9f7efde4ad6f50432857a9",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "fine_tuning/README.md",
+      "sha": "ecd993f73e4d47207f84c269853facbf7f644b4d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/couchbase_mcp_server/README.md",
+      "sha": "7a52ce6c1c8777f1fa9faa91b5c4bc53711fa061",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/database_mcp_agent/README.md",
+      "sha": "5ce9ca854d58cf5906c5eb9687dcf0516d7a6e52",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/doc_mcp/README.md",
+      "sha": "69198f7a072ab6cdd8619c6adbad86750b96e762",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/docs_qna_agent/README.md",
+      "sha": "70ce721bc0cf5160b9aad75140f6e8a8e3247481",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/e2b_docker_mcp_agent/README.md",
+      "sha": "85a51af2e01992f5b74099c40d6cd8c2aa320fd0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/github_mcp_agent/README.md",
+      "sha": "e129aa5692be4e1bd5826de3bd81cc92cec23cb0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/hotel_finder_agent/README.md",
+      "sha": "faad18ec3edbb48780ca13aa6d8e174e573efa42",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/langchain_langgraph_mcp_agent/README.md",
+      "sha": "879ffd8312fbc5a01c7eacc462ed839106cb8f6d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/mcp_starter/README.md",
+      "sha": "a08c701ee6c8bc801d87046012cc6febbcfacaf0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/scalekit-exa-mcp-security/README.md",
+      "sha": "a314f52be34b7ec94c19a5c6850e5fb716e2095b",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "mcp_ai_agents/taskade_mcp_agent/README.md",
+      "sha": "4ee3071e23a7e418d417cc62ba22822be03fbeba",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/agno_memory_agent/README.md",
+      "sha": "555efe359a55f6441bb090aae0b725e057504429",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/ai_consultant_agent/README.md",
+      "sha": "2f8d2c7e586b3b67ed89c652dc4ae98461ad01c3",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/arxiv_researcher_agent_with_memori/README.md",
+      "sha": "0d63f80b383f3fa3f16e4243bea28f0eb341741d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/aws_strands_agent_with_memori/README.md",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/blog_writing_agent/README.md",
+      "sha": "60f29870685b78421ca15cdaac089396c5cfccc7",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/brand_reputation_monitor/README.md",
+      "sha": "9965781e703d5c182df994cdd42bb1099415bb55",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/customer_support_voice_agent/README.md",
+      "sha": "64605b28228b1eae028e1992dbd677a470ddbf5d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/job_search_agent/README.md",
+      "sha": "f7bab82db7f8018cf0bfd56d3d66b867c7e83add",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/product_launch_agent/README.md",
+      "sha": "3831ad515dd666711fcd49c3003fac5f3db3d64f",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/social_media_agent/README.md",
+      "sha": "bd2aa595c938aa0a1693823f300713d33dab77f8",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/study_coach_agent/README.md",
+      "sha": "e935ca1e88704adf515cfbf6fa6cacfbfa478522",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "memory_agents/youtube_trend_agent/README.md",
+      "sha": "78cc0745ce6d1db9b2ee03cd307be39e5f6f49de",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/agentic_rag/README.md",
+      "sha": "2c0d57276ee645c6c7fc3dc1f2eb340c8ffb8720",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/agentic_rag_with_web_search/README.md",
+      "sha": "6bebf4282cf15427f3abe01350682e672333d082",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/chat_with_code/README.md",
+      "sha": "fb8ea6c27e4dca2faa28cd3c3e347c4332829ea3",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/contextual_ai_rag/README.md",
+      "sha": "202c088e68c471f85ba8711034c4505454eeda6d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/gemma_ocr/README.md",
+      "sha": "f52cc66f6ad68b9c22d9bd08ba0e8e834b9228db",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/llamaIndex_starter/README.md",
+      "sha": "39d02e07c78e0a997ccfe30eb71197d7a35f7072",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/nvidia_ocr/README.md",
+      "sha": "8e485bfe908d80dcceeec8d5b2f203cdb881c843",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/pdf_rag_analyser/README.md",
+      "sha": "6ebc7de5bf87c24a05c20cf05ea3cebdb36f404d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/qwen3_rag/README.md",
+      "sha": "b05bbc65417aa6e985b5eb4a588b3f853156c88f",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/resume_optimizer/README.md",
+      "sha": "1e950bd3664fd7a68c8df019624b8464358cc629",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "rag_apps/wfgy_llm_debugger/README.md",
+      "sha": "71b8e4f5719bd520d5e699915aa6ed11d11ff8a2",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/agent_discovery_agent/README.md",
+      "sha": "83991d74403546621492f0a4e23765ec29ff7aa2",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/agno_ai_examples/README.md",
+      "sha": "8fc446dc151110eab2f0601ce2217f56db69ed48",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/agno_ui_agent/README.md",
+      "sha": "e2fa66627e540cca2273b54bc34ed9083ad6dbe0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/browser_agent/README.md",
+      "sha": "968e7f4774772870f2c7cc514a94a25ff556fdb2",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/cal_scheduling_agent/README.md",
+      "sha": "28bd3ff3a85c5495599ee8d6e9ff9b09437ae06f",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/email_to_calendar_scheduler/README.md",
+      "sha": "11f0f9e8e1a8f414beba86364804ff32e3baa835",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/finance_agent/README.md",
+      "sha": "9a75950d17ad8c4f32c60ed6fbc3043ebcccda60",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/human_in_the_loop_agent/README.md",
+      "sha": "1fbd09b3bb26ae715d5cae0a753864836ae19605",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/llm_router/README.md",
+      "sha": "f60b6ffcb0237d1506c6dc7c377f96702cffce14",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/mastra_ai_weather_agent/README.md",
+      "sha": "c1eccd9d6eb0bb76d07347a170ba9c88e912b36d",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/nebius_chat/README.md",
+      "sha": "591061c7e924cd5be89e56e0dfbb5666df3fc2d0",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/newsletter_agent/README.md",
+      "sha": "e72ebeb82c1d0da611417f0569db826ce8df4dc4",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/reasoning_agent/README.md",
+      "sha": "656bdb25ddb4a21cd520dfab1a8f976048920471",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "simple_ai_agents/talk_to_db/README.md",
+      "sha": "4e15b88ebed434afdb4f1b042a969c2973ec33f3",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/agno_starter/README.md",
+      "sha": "4b03b34ed92dbf4b67798f48f5df1b5dc8d7ab63",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/aws_strands_starter/README.md",
+      "sha": "99f12c50a5cc9285a3649a8dbc674acfc015737e",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/cagent_starter/README.md",
+      "sha": "428a5e3864e3a3f973ce5fecfb191253947bbb3e",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/camel_ai_starter/README.md",
+      "sha": "a8e3ba12b12f3f439e486ed4b25873870dce11fb",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/crewai_starter/README.md",
+      "sha": "7f6115617c65cc30e95925ef4e64358161c86459",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/dspy_starter/README.md",
+      "sha": "6e83cc36f04287e9331310d4162bd06c116e4b15",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/google_adk_starter/README.md",
+      "sha": "b077179ed372d4daeba7022160e86ff9160dee69",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/kaos_starter/README.md",
+      "sha": "83fc3d1837fae305cdfeca2d76b19006a37f16c1",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/langchain_langgraph_starter/README.md",
+      "sha": "f5d69c7fdbe708f67427fc4eadec30016e474e61",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/llamaindex_starter/README.md",
+      "sha": "75750388803e689e4de335cba7603caa693beab8",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/openai_agents_sdk/README.md",
+      "sha": "8a967c5be41ed12097b22b4b6efb220e41c59722",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/pydantic_starter/README.md",
+      "sha": "7855200b48ab704d60141fa317da195f3dfbba69",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    },
+    {
+      "path": "starter_ai_agents/sayna_starter/README.md",
+      "sha": "51a017ba312e76334d85f108bffb49e2687a8176",
+      "last_ingested": {
+        "$date": "2026-03-07T15:12:35.854Z"
+      },
+      "status": "已导入"
+    }
+  ],
+  "last_updated": {
+    "$date": "2026-03-07T15:12:35.854Z"
+  },
+  "status": "complete",
+  "tracking_enabled": true
+}]

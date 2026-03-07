@@ -1,4 +1,4 @@
-from typing import Tuple, Dict, Any
+from typing import Tuple, Dict, Any, Generator
 
 import gradio as gr
 
@@ -54,13 +54,13 @@ class QueryTab:
              )
 
              query_btn.click(
-                 fn=self._execute_query,
+                 fn=self._execute_query_stream,
                  inputs=[selected_repo_textbox, query_mode, query_input],
                  outputs=[response_output, sources_output],
                  show_api=False,
              )
              query_input.submit(
-                 fn=self._execute_query,
+                 fn=self._execute_query_stream,
                  inputs=[selected_repo_textbox, query_mode, query_input],
                  outputs=[response_output, sources_output],
                  show_api=False,
@@ -117,28 +117,46 @@ class QueryTab:
             )
 
 
-    def _execute_query(self,repo: str, mode: str, query: str)-> Tuple[str, Dict[str, Any]]:
+    def _execute_query_stream(self,repo: str, mode: str, query: str)-> Generator[Tuple[str, Dict[str, Any]]]:
         """对仓库执行查询。"""
         if not query.strip():
-            return "请输入查询内容。", {"error": "查询内容为空"}
+            yield "请输入查询内容。", {"error": "查询内容为空"}
+            return None
 
         if not repo or repo in [
             "没有可用仓库",
             "加载仓库时出错",
             "",
         ]:
-            return "请选择一个有效的仓库。", {
+            yield "请选择一个有效的仓库。", {
                 "error": "未选择仓库"
             }
+            return None
 
 
         try:
             # 创建查询检索器
             retriever = create_query_retriever(repo)
 
-            result = retriever.make_query(query,mode,settings.similarity_top_k)
-
+            for partial_result in retriever.make_query(query,mode,settings.similarity_top_k):
+                if "error" in partial_result:
+                    yield f"错误：{partial_result['error']}", {"error": partial_result["error"]}
+                    return None
+                response_text = partial_result.get("response", "无可用响应")
+                source_nodes = partial_result.get("source_nodes", [])
+                if not partial_result.get("streaming", False):
+                    sources_output = {
+                        "sources": source_nodes,
+                        "repository": repo,
+                        "mode": mode,
+                        "processing_time": partial_result.get("processing_time", 0),
+                        "total_sources": len(source_nodes),
+                    }
+                else:
+                    # 流式过程中，sources_output 保持为空或显示"生成中..."
+                    sources_output = {"status": "生成回答中..."}
+                yield response_text, sources_output
         except Exception as e:
             logger.error(f"查询执行错误：{e}")
             error_msg = f"查询失败：{str(e)}"
-            return error_msg, {"error": str(e)}
+            yield error_msg, {"error": str(e)}

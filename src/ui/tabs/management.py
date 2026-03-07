@@ -1,6 +1,7 @@
 from typing import Tuple, List, Dict, Any
 
 import gradio as gr
+from gradio import Dropdown
 
 from src.core.settings import settings
 from src.database.repository import repository_manager
@@ -17,7 +18,6 @@ class ManagementTab:
         with gr.TabItem("📊 仓库管理",visible=settings.enable_repo_management) as tab:
             # gr.Markdown("### 📊 仓库管理")
             gr.Markdown("管理您已导入的仓库 - 查看详情并在需要时删除仓库。")
-            initial_table_data, initial_dropdown_choices = self._load_repository_detail()
             with gr.Row():
                 with gr.Column():
                     gr.Markdown("### 📊 仓库统计")
@@ -40,7 +40,6 @@ class ManagementTab:
                         wrap=True,
                         max_height=300
                     )
-                    repos_table.value = initial_table_data
                     refresh_repos_btn = gr.Button(
                         "🔄 刷新仓库列表", variant="secondary"
                     )
@@ -52,7 +51,7 @@ class ManagementTab:
             with gr.Row():
                 with gr.Column(scale=2):
                     delete_repo_dropdown = gr.Dropdown(
-                        choices=initial_dropdown_choices,
+                        choices=[],
                         label="选择要删除的仓库",
                         value=None,
                         interactive=True,
@@ -111,8 +110,7 @@ class ManagementTab:
                 outputs=[repos_table,delete_repo_dropdown],
                 show_api=False
             )
-
-        return tab
+            return tab
 
     def _load_repository_stats(self)->Dict[str,Any]:
         try:
@@ -122,12 +120,18 @@ class ManagementTab:
             return {"error": f"加载统计信息失败: {str(e)}"}
 
 
-    def _load_repository_detail(self)->Tuple[List[List],List[str]]:
+    def _load_repository_detail(self)->Tuple[List[List],Dropdown]:
         """加载仓库详情用于表格和下拉框。"""
         try:
             details = repository_manager.get_repository_detail()
             if not details:
-                return  [["未找到仓库", 0, "N/A", "N/A"]],[]
+                return  [["未找到仓库", 0, "N/A", "N/A"]],gr.Dropdown(
+                    choices=[],
+                    label="选择要删除的仓库",
+                    value=None,
+                    interactive=True,
+                    allow_custom_value=True
+                )
             # 格式化数据表格
             table_data = []
             dropdown_choices = []
@@ -146,18 +150,28 @@ class ManagementTab:
                 ])
                 if repo_name != '未知':
                     dropdown_choices.append(repo.get("name"))
-
-            return table_data,dropdown_choices
+            return table_data,gr.Dropdown(
+                choices=dropdown_choices,
+                label="选择要删除的仓库",
+                value=None,
+                interactive=True,
+                allow_custom_value=True
+            )
         except Exception as e:
             logger.error(f"加载仓库详情信息失败: {e}")
-            return [["加载仓库时出错", 0, str(e), "错误"]], []
+            return [["加载仓库时出错", 0, str(e), "错误"]],gr.Dropdown(
+                    choices=[],
+                    label="选择要删除的仓库",
+                    value=None,
+                    interactive=True,
+                    allow_custom_value=True
+                )
 
-
-    def _check_delete_button_state(self,repo_selected: str, confirmation_checked: bool)->bool:
-        if repo_selected and repo_selected != '' and confirmation_checked:
-            return True
+    def _check_delete_button_state(self,repo_selected: str, confirmation_checked: bool)->gr.Button:
+        if repo_selected and repo_selected.strip() != '' and confirmation_checked:
+            return gr.Button(interactive=True)
         else:
-            return False
+            return gr.Button(interactive=False)
 
     def _delete_repository(self,repo_name: str, confirmed: bool):
         """删除仓库"""
@@ -176,7 +190,7 @@ class ManagementTab:
                 table_data,
             )
         if not confirmed:
-            table_data, dropdown_choices = self._load_repository_details()
+            table_data, dropdown_choices = self._load_repository_detail()
             return (
                 "❌ 请勾选确认框以确认删除。",
                 gr.Dropdown(
@@ -194,27 +208,19 @@ class ManagementTab:
             result = repository_manager.delete_repository_data(repo_name)
 
             # 删除后刷新数据
-            table_data, dropdown_choices = self._load_repository_details()
-
-            updated_dropdown = gr.Dropdown(
-                choices=dropdown_choices,
-                value=None,
-                label="选择要删除的仓库",
-                interactive=True,
-                allow_custom_value=False,
-            )
+            table_data, dropdown_choices = self._load_repository_detail()
 
             if result['success']:
                 return (
                     f"✅ {result['message']}",
-                    updated_dropdown,
+                    dropdown_choices,
                     gr.Checkbox(value=False),
                     table_data,
                 )
             else:
                 return (
                     f"❌ {result['message']}",
-                    updated_dropdown,
+                    dropdown_choices,
                     gr.Checkbox(value=False),
                     table_data,
                 )

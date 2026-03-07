@@ -27,8 +27,9 @@ class Settings(BaseSettings):
     similarity_top_k:int = Field(default=int(os.getenv("SIMILARITY_TOP_K")))
 
     chunk_size:int = Field(default=int(os.getenv("CHUNK_SIZE")))
+    chunk_min_size:int = Field(default=int(os.getenv("CHUNK_MIN_SIZE")))
     chunk_overlap:int = Field(default=int(os.getenv("CHUNK_OVERLAP")))
-    separator:str = Field(default="\n\n")
+    separator:str = Field(default="\n\n##")
 
     chroma_data_url:str = Field(default=str(config.chroma_data_dir))
     # github
@@ -39,6 +40,7 @@ class Settings(BaseSettings):
     github_concurrent_requests: int = Field(default=int(os.getenv("GITHUB_CONCURRENT_REQUESTS")))
 
     default_embedding_api_key:str = Field(default=os.getenv("DEFAULT_EMBEDDING_API_KEY"))
+    default_embedding_base_url:str = Field(default=os.getenv("DEFAULT_EMBEDDING_BASE_URL"))
     default_embedding_model:str = Field(default=os.getenv("DEFAULT_EMBEDDING_MODEL"))
 
     default_llm_model:str = Field(default=os.getenv("DEFAULT_LLM_MODEL"))
@@ -47,6 +49,7 @@ class Settings(BaseSettings):
 
     cross_encoder_model:str = Field(default=os.getenv("CROSS_ENCODER_MODEL"))
     cross_encoder_top_k:int = Field(default=int(os.getenv("CROSS_ENCODER_TOP_K")))
+    cross_encoder_batch_size:int = Field(default=int(os.getenv("CROSS_ENCODER_BATCH_SIZE")))
 
     hf_token:str = Field(default=os.getenv("HF_TOKEN"))
 

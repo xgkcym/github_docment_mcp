@@ -1,10 +1,4 @@
-from src.ui.index import create_app
-
-
+from ui.index import main
 
 if __name__ == "__main__":
-    try:
-        demo = create_app()
-        demo.launch()
-    except Exception as e:
-        print(e)
+    main()

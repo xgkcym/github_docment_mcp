@@ -5,6 +5,7 @@ from llama_index.core import Document
 from core.exceptions import GitHubError
 from core.settings import settings
 from core.types import GitHubFileInfo, DocumentMetadata
+from database.repository import repository_manager
 from github.client import github_client
 from github.parse import parse_github_url, build_github_web_url
 from utils.logger_handler import logger
@@ -56,9 +57,56 @@ def discover_repository_files_with_changes(
    """
     try:
         # 获取带有 SHA 的当前文件
-        current_files, message = discover_repository_files(repo_url,branch,file_extensions)
+        current_files, message = discover_repository_files(repo_url,branch,file_extensions,include_sha=True)
+
+        if not current_files:
+            return {
+                "files": [],
+                "message": message,
+                "changes": {"new": [], "modified": [], "deleted": [], "unchanged": []},
+                "has_changes": False,
+            }
+
+        # 检测变化
+        changes = repository_manager.detect_file_changes(repo_name, branch,current_files)
+
+        # 计算变化摘要
+        total_changes = (
+                len(changes["new"]) + len(changes["modified"]) + len(changes["deleted"])
+        )
+        has_changes = total_changes > 0
+
+        # 创建详细消息
+        if has_changes:
+            change_summary = f"检测到变化：{len(changes['new'])} 个新文件，{len(changes['modified'])} 个已修改，{len(changes['deleted'])} 个已删除"
+            detailed_message = f"{message}\n\n📊 变化检测：\n{change_summary}"
+        else:
+            detailed_message = (
+                f"{message}\n\n✅ 未检测到变化 - 仓库已是最新"
+            )
+
+        return {
+            "files": current_files,
+            "message": detailed_message,
+            "changes": changes,
+            "has_changes": has_changes,
+            "change_summary": {
+                "new_count": len(changes["new"]),
+                "modified_count": len(changes["modified"]),
+                "deleted_count": len(changes["deleted"]),
+                "unchanged_count": len(changes["unchanged"]),
+                "total_changes": total_changes,
+            },
+        }
+
     except Exception as e:
-        pass
+        logger.error(f"发现 {repo_url} 的文件变化失败：{e}")
+        return {
+            "files": [],
+            "message": f"错误：{str(e)}",
+            "changes": {"new": [], "modified": [], "deleted": [], "unchanged": []},
+            "has_changes": False,
+        }
 
 
 async def load_files_from_github(

@@ -9,7 +9,7 @@ from llama_index.llms.openai_like import OpenAILike
 from api.niu_trans import create_translate
 from core.settings import settings
 from database.repository import repository_manager
-from database.vector_store import get_vector_store
+from database.vector_store import get_vector_store, get_vector_collection
 from rag.models import IngestionProgress
 from utils.logger_handler import logger
 
@@ -29,7 +29,10 @@ class DocumentIngestionPipeline:
         )
         Settings.text_splitter = self.text_splitter
         Settings.node_parser = self.text_splitter
-        self.markdown_parser = MarkdownNodeParser()
+        self.markdown_parser = MarkdownNodeParser(
+            include_metadata=True,  # 保留标题层级元数据
+            include_prev_next_rel=True  # 保留前后节点关系
+        )
 
         Settings.llm = OpenAILike(
             is_chat_model=True,
@@ -40,9 +43,10 @@ class DocumentIngestionPipeline:
         Settings.embed_model = DashScopeEmbedding(
             model_name=settings.default_embedding_model,
             api_key=settings.default_embedding_api_key,
-            embed_batch_size=settings.embed_batch_size
+            embed_batch_size=settings.embed_batch_size,
+            api_base=settings.default_embedding_base_url
         )
-
+        self.vector_collection = get_vector_collection()
 
 
     async def ingest_documents(self,documents: List[Document], repo_name: str, branch: str, files_with_sha: Optional[List[dict]],allow_trans:bool=settings.allow_trans) -> bool:
@@ -76,25 +80,33 @@ class DocumentIngestionPipeline:
                     )
                 documents = new_documents
 
-
-            # 根据文件类型选择不同的解析器
-            transformations = []
-
-            # 检查是否全是 Markdown
-            has_markdown = any(
-                doc.metadata.get("file_extension", "").lower() in ["md", "mdx"]
-                for doc in documents
-            )
-
-            if has_markdown:
-                # 对 Markdown 使用专用解析器，对普通文本使用 SentenceSplitter
-                # LlamaIndex 会自动根据文档类型应用合适的解析
-                transformations = [self.markdown_parser, self.text_splitter]
-            else:
-                transformations = [self.text_splitter]
-
+            #
+            # # 检查是否全是 Markdown
+            # has_markdown = any(
+            #     doc.metadata.get("file_extension", "").lower() in ["md", "mdx"]
+            #     for doc in documents
+            # )
+            # if has_markdown:
+            #     # 对 Markdown 使用专用解析器，对普通文本使用 SentenceSplitter
+            #     # LlamaIndex 会自动根据文档类型应用合适的解析
+            #     transformations = [self.markdown_parser, self.text_splitter]
+            # else:
+            #     transformations = [self.text_splitter]
 
             logger.info(f"开始为 {repo_name} 导入 {total_docs} 个文档")
+
+            doc_index = []
+            for doc in documents:
+                    doc_index.append(doc.id_)
+            if doc_index:
+                self.vector_collection.delete(
+                    where={
+                        "doc_id":{
+                            "$in":doc_index
+                        }
+                    }
+                )
+
             # 获取向量存储
             vector_store = get_vector_store()
             storage_context = StorageContext.from_defaults(vector_store=vector_store)
@@ -103,7 +115,7 @@ class DocumentIngestionPipeline:
                 documents=documents,
                 storage_context=storage_context,
                 show_progress=True,  # 自己处理进度
-                transformations=transformations
+                transformations= [self.text_splitter]
             )
             # 报告完成
             elapsed_time = time.time() - start_time
@@ -120,15 +132,22 @@ class DocumentIngestionPipeline:
                     else:
                         logger.warning(f"文档缺少 SHA 信息：{file_path}")
 
-            result = repository_manager.update_repository_info(repo_name=repo_name,branch=branch,files_with_sha=files_with_sha)
-            if  result:
-                logger.info(
-                    f"成功在 {elapsed_time:.2f} 秒内为 {repo_name} 导入 {total_docs} 个文档"
-                )
+            try:
+                repository_manager.update_repository_info(repo_name=repo_name, branch=branch,files_with_sha=files_with_sha)
                 return True
-            else:
+            except Exception as e:
+                self.vector_collection.delete(
+                    where={
+                        "$and":[
+                            {"repo": {'$eq':repo_name}},
+                            {"branch": {'$eq':branch}}
+                        ]
+                    }
+                )
                 return False
+
         except Exception as e:
+
             logger.error(f"[文档导入失败] 错误信息:{str(e)}")
             return False
 
@@ -155,3 +174,22 @@ async def ingest_documents_async(
     """
     pipeline = DocumentIngestionPipeline(progress_callback)
     return await pipeline.ingest_documents(documents, repo_name, branch, files_with_sha,allow_trans)
+
+
+if __name__ == '__main__':
+    docs_res = get_vector_collection().get(
+        where={
+            "$and": [
+                {"repo": {'$eq': "Arindam200/awesome-ai-apps"}},
+                {"branch": {'$eq': "main"}}
+            ]
+        }
+    )
+    # doc_index = []
+    # doc_tree = {}
+    # for index, item in enumerate(docs_res['metadatas']):
+    #     doc_tree[item['doc_id']] = docs_res['ids'][index]
+
+
+    # print(doc_tree)
+    print(len(docs_res['ids']))
